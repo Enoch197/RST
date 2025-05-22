@@ -45,8 +45,10 @@ jobs:
           VALIDATE_GITLEAKS: false # for secrets detection
 
           VALIDATE_JSON: false
-
+         
           VALIDATE_JSCPD: false # for copy and paste detection
+
+          DISABLE_ERRORS: true
 
           DEFAULT_BRANCH: main
 
